@@ -117,6 +117,7 @@ int getStat(int potentiometer){
   return -1;
 }
 
+// https://www.circuitbasics.com/arduino-ohm-meter/
 int getPinResistance(int analogPin){
   raw = analogRead(analogPin);
   if(raw){
